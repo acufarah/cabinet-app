@@ -51,3 +51,24 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#Use haml instead of erb
+gem 'haml', '~> 5.0'
+
+#Use Simple Form to make files on app
+gem 'simple_form', '~> 3.4'
+
+#Use Devise for authentication
+gem 'devise', '~> 4.2', '>= 4.2.1'
+
+#Use Bcrypt for hashing passwords
+gem 'bcrypt', '~> 3.1', '>= 3.1.11'
+
+#Devise is dependent on orm_adapter
+gem 'orm_adapter', '~> 0.5.0'
+
+#Responders to dry up application
+gem 'responders', '~> 2.4'
+
+#Authentication for rack applications
+gem 'warden', '~> 1.2', '>= 1.2.7'
