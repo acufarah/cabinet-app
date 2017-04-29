@@ -65,7 +65,7 @@ gem 'devise', '~> 4.2', '>= 4.2.1'
 gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 
 #Devise is dependent on orm_adapter
-gem 'orm_adapter', '~> 0.5.0'
+gem 'orm_adapter', '~> 0.5.0'bu
 
 #Responders to dry up application
 gem 'responders', '~> 2.4'
